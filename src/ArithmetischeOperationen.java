@@ -1,5 +1,19 @@
+import java.util.Scanner;
+
 public class ArithmetischeOperationen {
     public static void main(String[] args) {
-        System.out.println("Hello World");
+        int a = 0;
+        int b = 0;
+
+        System.out.print("Define a: ");
+        Scanner defineA = new Scanner(System.in);
+        a = defineA.nextInt();
+
+        System.out.print("Define b: ");
+        Scanner defineB = new Scanner(System.in);
+        b = defineB.nextInt();
+
+        System.out.println("a = " + a);
+        System.out.println("b = " + b);
     }
 }
